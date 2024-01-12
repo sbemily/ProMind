@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+:root {
+    --areia: #F3E0C0;
+    --azul: #99D1EA;
+    --amarelo: #FFC05C;
+
+    --font1: "Tauri", sans-serif;
+    --font2: "Telex", sans-serif;
+}
+
+body {
+    font-family: var(--font1);
+    font-weight: 400;
+    font-style: normal;
+    width: auto;
+  }
+main{
+    background: linear-gradient(116deg, #99D1EA 0.52%, #99D1EA 31.53%, rgba(153, 209, 234, 0.48) 45.56%, rgba(153, 209, 234, 0.00) 58.64%);
+    background-color: var(--areia);
+}
+
+
+
+/* HEADER */
+  header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    background-color: white;
+  }
+
+  .bts{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+  }
+
+  .bts a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+  }
+
+  header img{
+    width: 150px;
+    height: 40px;
+  }
+
+/* BANNER */
+  .banner{
+    background-image: url(../img/banner.png);
+    height: 700px;
+    width: auto;
+    color: white;
+    padding-left: 31px;
+    padding-top: 600px;
+    font-family: var(--font2);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+/* INFO */
+  .info{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font2);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .info p{
+    width: 350px;
+  }
+
+/* FOOTER */
+  footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    background-color: white;
+    font-size: 10px;
+  }
+
+  .redes{
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
+  }
+
+  .redes img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .text-footer, .space{
+    width: 250px;
+  }
